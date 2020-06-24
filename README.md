@@ -1,6 +1,6 @@
 # Alpha Intraday US30 M5
 
-The intraday scalping strategy is tailored to US30 CFD. The approach will be to use SPX500 as a proxy to validate sudden moves and use ML.NET to contribute to decision making. It is based on 5M intervals for candlestick pattern recognition, however, the data is received every tick. It is expected that the positions will be closed outside of trading hours, but for those that are happy to leave red positions overnight, it's is configurable.
+The intraday alpha strategy is tailored to US30 CFD. The approach will be to use SPX500 as a proxy to validate sudden moves and use ML.NET to contribute to decision making. It is based on 5M intervals for candlestick pattern recognition, however, the data is received every tick. It is expected that the positions will be closed outside of trading hours, but for those that are happy to leave red positions overnight, it's is configurable.
 
 The main purpose of this strategy is to generate steady positive performance regardless of the directions of the market concentrating on guerilla like trading (hm, a possible name for the strategy once it's more generic) with short holding period, minimum risk and hence high Sharpe ratio. 
 I believe I have a few tricks up my sleeve: 
