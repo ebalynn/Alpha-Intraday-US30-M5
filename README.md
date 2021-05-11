@@ -5,7 +5,7 @@ The intraday alpha strategy is tailored to US30 CFD. The approach will be to use
 The main purpose of this strategy is to generate steady positive performance regardless of the directions of the market concentrating on guerilla like trading (hm, a possible name for the strategy once it's more generic) with short holding period, minimum risk and hence high Sharpe ratio. 
 I believe I have a few tricks up my sleeve: 
 * ML.NET - not yet sure how accurate that is going to be, but it will certainly help with candlestick pattern recognition
-* Use of SPX500 to validate out trading assumptions. In a way, we are doing pairs trading but only trading US30
+* Use of SPX500 to validate our trading assumptions. In a way, we are doing pairs trading but only trading US30
 * Ninja Trader 8 and C#/.NET 4.8 stack is a very powerful tool, add to this Azure and we have a monster!
 * I don't believe in magic, make you a billionaire next day strategies
 * There are 2 more that I'm going to keep to myself for now
